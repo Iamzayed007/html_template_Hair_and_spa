@@ -123,10 +123,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .about-section{
+    background: linear-gradient(110deg, rgb(95, 31, 31) 60%, rgb(206, 101, 101) 60%);
     margin-top: 100px;
+    color: white;
 }
 .about-section i{
-    color: brown;
+    color: rgb(202, 152, 152);
    font-size: 30px;
 }
 .about-img img{
@@ -139,10 +141,10 @@
    transform: scale(1.1);
 }
 .about-title{
-    color: black;
+    color: rgb(248, 244, 244);
 }
 .about-title span{
-    color: rgb(209, 27, 27);
+    color: rgb(236, 14, 14);
 }
 .about-content h4:hover{
     color: brown;
@@ -164,10 +166,11 @@
     color: rgb(209, 27, 27);
 
 }
-.footer-phone:hover{
+.footer-phone:hover, .subscribe-title:hover{
     color: rgb(209, 27, 27);
     transform: scale(1.1);
 }
+
 
 /* Login Page */
 
