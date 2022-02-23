@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.bg-gray{
+    background-color: rgb(255, 255, 255);
+    line-height: 40px;
+    
+}
+
+.header-section a span{
+    color: rgb(209, 27, 27);
+    
+}
+.header-section i{
+    color: rgb(209, 27, 27);
+    
+}
+
+.banner-section{
+    background-image: url('../assets/image/banner/banner-1.jpg');
+    background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+    min-height: 100vh;
+   
+}
+
+
+.banner-section h1{
+    position: relative;
+    top: 55vh;
+    left: 30%;
+    width: fit-content;
+    font-size: 3em;
+    color: rgb(197, 156, 156);
+ 
+}
+.servie-title span{
+    color: rgb(209, 27, 27);;
+}
+.service-content{
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+   margin-left: auto;
+}
+.service-card{
+    width: 18rem;
+    background-color: rgb(192, 181, 181);
+}
+.service-card:hover{
+    
+    background-color: rgb(243, 236, 236);
+    
+    transform: scale(1.1);
+    
+}
+.service-card h5{
+    color: rgb(80, 28, 28);
+}
+.service-card h6{
+    color: rgb(80, 28, 28);
+}
+
+.service-card img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+
+
+
+.price-title span{
+    color: rgb(209, 27, 27);
+}
+.price-card{
+    width: 20rem;
+    background-color: rgb(192, 181, 181);
+    border-radius: 25px;
+    min-height: 52vh;
+ 
+}
+.price-card:hover{
+   transform: scale(1.1);
+ 
+}
+.price-card h1{
+    position: absolute;
+    margin: 40px 40px;
+    
+    font-size: xx-large;
+    color: rgb(80, 28, 28);
+  
+}
+.price-card i{
+    color: brown;
+}
+
+.price-money{
+    font-size: 60px;
+}
+.price-duration{
+    font-size: x-large;
+}
+.price-card img{
+   
+    height: 25vh;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    opacity: 40%;
+    
+}
+.price-card li{
+   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-section{
+    margin-top: 100px;
+}
+.about-section i{
+    color: brown;
+   font-size: 30px;
+}
+.about-img img{
+    height: 60vh;
+    width: 30rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about-img img:hover{
+   transform: scale(1.1);
+}
+.about-title{
+    color: black;
+}
+.about-title span{
+    color: rgb(209, 27, 27);
+}
+
+.footer-section{
+    min-height: 10vh;
+}
+.footer-section a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-section i, .footer-section span{
+
+    color: rgb(209, 27, 27);
+
+}
+.footer-phone:hover{
+    color: rgb(209, 27, 27);
+    transform: scale(1.1);
+}
+.login-title i, .login-title span{
+    color: rgb(209, 27, 27); 
+}
+.login-title a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin: -40px -200px;
+}
+
+@media only screen and (max-width: 440px) {
+    .banner-section h1{
+        left: 10%;
+        font-size: medium;
+        font-size: 1em;
+    }
+   
+    .service-card{
+        width: 10rem;
+       
+    }
+    .price-card{
+        width: 10rem;
+    }
+    .price-card h1{
+      
+        left: 0%;
+      
+      
+      
+    }
+    .about-img img{
+        height: 40vh;
+        width: 10rem;
+    }
+}
+       
+   
+@media only screen and (min-width: 440px) and (max-width: 886px) {
+    .banner-section h1{
+        left: 20%;
+        font-size: 1.8em;
+        /* font-size: medium; */
+    }
+    .service-card{
+        width: 12rem;
+       
+    }
+    .price-card{
+        width: 12rem;
+       
+    }
+    .price-card h1{
+     
+        left: 1%;
+    
+      
+      
+    }
+    .about-img img{
+        height: 40vh;
+        width: 20rem;
+    }
+  }
