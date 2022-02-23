@@ -31,10 +31,10 @@
 
 .banner-section h1{
     position: relative;
-    top: 55vh;
+    top: 75vh;
     left: 30%;
     width: fit-content;
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(197, 156, 156);
  
 }
@@ -80,7 +80,7 @@
     width: 20rem;
     background-color: rgb(192, 181, 181);
     border-radius: 25px;
-    min-height: 52vh;
+    /* min-height: 52vh; */
  
 }
 .price-card:hover{
@@ -144,8 +144,12 @@
 .about-title span{
     color: rgb(209, 27, 27);
 }
-
+.about-content h4:hover{
+    color: brown;
+    transform: scale(1.1);
+}
 .footer-section{
+    margin-top: 100px;
     min-height: 10vh;
 }
 .footer-section a{
@@ -164,19 +168,46 @@
     color: rgb(209, 27, 27);
     transform: scale(1.1);
 }
+
+/* Login Page */
+
+
 .login-title i, .login-title span{
     color: rgb(209, 27, 27); 
 }
 .login-title a{
     text-decoration: none;
     color: black;
-    position: absolute;
-    margin: -40px -200px;
+    
 }
+
+.login-image img{
+
+    height: 700px;
+    width: 600px;
+    object-fit: cover;
+    margin-top: 80px ;
+    
+    border-radius: 30px;
+}
+
+.login-image img:hover{
+    transform: scale(1.1);
+}
+.login-form-section{
+    margin-top: 100px;
+}
+.login-form{
+    width: 350px;
+}
+.form-control:focus {
+    border-color: rgb(209, 27, 27);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(209, 27, 27);
+  }
 
 @media only screen and (max-width: 440px) {
     .banner-section h1{
-        left: 10%;
+        /* left: 10%; */
         font-size: medium;
         font-size: 1em;
     }
@@ -191,20 +222,35 @@
     .price-card h1{
       
         left: 0%;
+        font-size: 1rem;
       
       
       
     }
+    .price-card li{
+        font-size: medium;
+    }
+    .price-money{
+        font-size: 40px;
+    }
+    .price-duration{
+        font-size: large;
+    }
     .about-img img{
         height: 40vh;
         width: 10rem;
+    }
+    .login-image img{
+
+        height: 400px;
+        width: 300px;
     }
 }
        
    
 @media only screen and (min-width: 440px) and (max-width: 886px) {
     .banner-section h1{
-        left: 20%;
+        /* left: 25%; */
         font-size: 1.8em;
         /* font-size: medium; */
     }
@@ -219,12 +265,25 @@
     .price-card h1{
      
         left: 1%;
+        font-size: 20px;
     
       
       
     }
+    .price-money{
+        font-size: 30px;
+    }
+    .price-duration{
+        font-size: 15px;
+    }
     .about-img img{
         height: 40vh;
         width: 20rem;
+    }
+
+    .login-image img{
+
+        height: 500px;
+        width: 400px;
     }
   }
