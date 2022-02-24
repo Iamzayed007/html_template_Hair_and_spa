@@ -88,6 +88,10 @@
 .service-card h5 {
   color: rgb(80, 28, 28);
 }
+.service-card:hover h5,.service-card:hover h6  {
+  color: #fff;
+}
+
 .service-card h6 {
   color: rgb(80, 28, 28);
 }
@@ -137,7 +141,7 @@
   object-fit: cover;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
-  opacity: 40%;
+  opacity: 60%;
 }
 .price-card li {
   list-style: none;
