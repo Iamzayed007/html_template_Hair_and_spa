@@ -210,6 +210,8 @@
 }
 
 
+
+
 /* footer */
 
 
@@ -229,9 +231,12 @@
   text-decoration: none;
   color: rgb(250, 249, 246);
 }
+
+
+
 .footer-section a:hover {
   transform: scale(1.1);
-  color: rgb(119, 24, 24);
+  color: rgb(230, 129, 129);
 }
 
 .footer-section i,
@@ -245,6 +250,8 @@
 }
 
 /* Login Page */
+
+
 
 .login-title i,
 .login-title span {
@@ -275,6 +282,7 @@
     rgb(248, 243, 243) 80%,
     rgb(233, 218, 218) 20%
   );
+  min-height: 60vh;
   
 }
 .login-form {
@@ -290,7 +298,7 @@
 
 
 
-
+/* for responsive */
 
 @media only screen and (max-width: 440px) {
   .banner-section h1 {
