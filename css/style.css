@@ -27,9 +27,16 @@
   display: flex;
   justify-content: center;
 }
+ .navbar-light .navbar-brand:hover ,
+.navbar-light .navbar-nav .nav-link:hover
+{
+  color: rgb(230, 129, 129);
+}
+
 .header-section a span ,.header-section i{
   color: rgb(209, 27, 27);
 }
+
 
 
 .banner-section {
@@ -51,15 +58,15 @@
   height: 80vh;
   object-fit: cover;
 }
-.banner-section h1 {
+/* .banner-section h1 {
   position: relative;
   top: 75vh;
   left: 30%;
   width: fit-content;
   font-size: 4em;
-  /* color: rgb(197, 156, 156); */
+  
   color: rgb(233, 223, 223);
-}
+} */
 .servie-title span {
   color: rgb(209, 27, 27);
 }
