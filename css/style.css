@@ -190,6 +190,10 @@
   text-decoration: none;
   color: black;
 }
+.footer-section a:hover {
+  transform: scale(2.0);
+  color: rgb(119, 24, 24);
+}
 
 .footer-section i,
 .footer-section span {
@@ -211,6 +215,7 @@
   text-decoration: none;
   color: black;
 }
+
 
 .login-image img {
   height: 700px;
