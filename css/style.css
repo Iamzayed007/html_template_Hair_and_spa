@@ -35,13 +35,24 @@
 }
 
 .banner-section {
-  background-image: url("../assets/image/banner/banner-1.jpg");
+  /* background-image: url("../assets/image/banner/banner-1.jpg");
   background-repeat: no-repeat;
   width: 100%;
-  background-size: cover;
+  background-size: cover; */
   min-height: 100vh;
+  /* height: 100vh; */
 }
-
+.carousel{
+  height: 80vh;
+}
+.carousel h5{
+  font-size: 4em;
+  color: rgb(233, 223, 223);
+}
+.carousel img{
+  height: 80vh;
+  object-fit: cover;
+}
 .banner-section h1 {
   position: relative;
   top: 75vh;
@@ -82,6 +93,7 @@
 }
 
 .service-card img {
+  margin-top: .5rem;
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
