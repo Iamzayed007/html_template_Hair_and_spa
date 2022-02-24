@@ -27,12 +27,10 @@
   display: flex;
   justify-content: center;
 }
-.header-section a span {
-  color: rgb(233, 223, 223);
+.header-section a span ,.header-section i{
+  color: rgb(209, 27, 27);
 }
-.header-section i {
-  color: rgb(233, 223, 223);
-}
+
 
 .banner-section {
   /* background-image: url("../assets/image/banner/banner-1.jpg");
@@ -182,16 +180,50 @@
   color: brown;
   transform: scale(1.1);
 }
+
+
+/* blog */
+
+.blog-title span {
+  color: rgb(236, 14, 14);
+}
+
+.blog-card img{
+  height: 40vh;
+  object-fit: cover;
+
+}
+.blog-card img:hover{
+ transform: scale(1.1);
+
+}
+.blog-card-body a{
+  text-decoration: none;
+  color: rgb(80, 28, 28);
+}
+
+
+/* footer */
+
+
 .footer-section {
+  background: linear-gradient(
+    110deg,
+    rgb(95, 31, 31) 58%,
+    rgb(206, 101, 101) 50%
+  );
+  color: white;
+
   margin-top: 100px;
-  min-height: 10vh;
+
+
 }
 .footer-section a {
   text-decoration: none;
-  color: black;
+  color: rgb(250, 249, 246);
 }
 .footer-section a:hover {
-  transform: scale(2.0);
+  transform: scale(1.1);
   color: rgb(119, 24, 24);
 }
 
@@ -213,7 +245,7 @@
 }
 .login-title a {
   text-decoration: none;
-  color: black;
+  color: rgb(95, 31, 31) ;
 }
 
 
@@ -231,6 +263,11 @@
 }
 .login-form-section {
   margin-top: 100px;
+  background: linear-gradient(
+    140deg,
+    rgb(248, 243, 243) 80%,
+    rgb(233, 218, 218) 20%
+  );
   
 }
 .login-form {
@@ -243,6 +280,10 @@
   border-color: rgb(209, 27, 27);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(209, 27, 27);
 }
+
+
+
+
 
 @media only screen and (max-width: 440px) {
   .banner-section h1 {
@@ -311,4 +352,14 @@
     height: 500px;
     width: 400px;
   }
+}
+
+
+@media only screen and (min-width: 1151px) and (max-width: 1399px){
+
+  .service-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
 }
